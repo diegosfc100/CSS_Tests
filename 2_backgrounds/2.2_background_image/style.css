@@ -1,0 +1,19 @@
+/*
+Imagem de fundo CSS
+- A propriedade background-image especifica uma imagem a ser usada como plano de fundo de um elemento.
+- Por padrão, a imagem é repetida para cobrir todo o elemento.
+*/
+
+body {
+    background-image: url(fibo.jpg);
+}
+
+/*
+A imagem de fundo também pode ser definida para elementos específicos, como o elemento <h1>:
+*/
+
+h1 {
+    background-image: url(estrelas.webp);
+    color: white;
+}   
+
