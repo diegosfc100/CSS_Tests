@@ -1,0 +1,12 @@
+/* 
+
+seletor {
+    propriedade: valor } 
+
+- O SELETOR aponta para o elemento HTML que você deseja estilizar.
+- O {bloco de declaração} contém uma ou mais declarações separadas por ponto e vírgula.
+- Cada declaração inclui um nome de PROPRIEDADE CSS e um VALOR, separados por dois pontos.
+- Várias declarações CSS são separadas por ponto e vírgula e os blocos de declaração são cercados por chaves.
+
+*/ 
+
