@@ -5,7 +5,8 @@ Imagem de fundo CSS
 */
 
 body {
-    background-image: url(fibo.jpg);
+    background-image: url(santos.png);
+    background-repeat: no-repeat;
 }
 
 /*
@@ -13,7 +14,8 @@ A imagem de fundo também pode ser definida para elementos específicos, como o 
 */
 
 h1 {
-    background-image: url(estrelas.webp);
-    color: white;
+    background-image: url(santos.png);
+    color: black;
+    text-align: center;
 }   
 
