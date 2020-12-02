@@ -8,8 +8,6 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background:#1c234a; 
@@ -23,17 +21,18 @@ ul li span {
     position: relative;
     top: -2px;
     left: -10px;
-    color: transparent;
+    color: transparent
 }
 
 ul li:hover span{
-    color:#e43a19; /* COR DESTAQUE (X)*/ 
+    color:#e43a19;
 }
+
 
 ul li {
     list-style: none;
     margin: 0 20px;
-    font-size: 4em;
+    font-size: 2.5em;
 }
 
 ul li a {
