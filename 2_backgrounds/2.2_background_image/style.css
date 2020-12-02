@@ -19,3 +19,8 @@ h1 {
     text-align: center;
 }   
 
+/*
+Dica: o plano de fundo de um elemento é o tamanho total do elemento, incluindo preenchimento e borda (mas não a margem).
+
+Dica: Sempre defina uma cor de fundo a ser usada se a imagem não estiver disponível. */
+
