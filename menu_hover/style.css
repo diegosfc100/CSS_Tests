@@ -9,6 +9,14 @@ body {
     align-items: center;
     min-height: 100vh;
     background:#1c234a; 
+    /* acrescentei imagem de fundo abaixo.*/
+    background-image: url(bg.png);
+    background-size:cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height: 100vh;
+	position: relative;
+   
 }
 
 ul {
@@ -27,11 +35,10 @@ ul li:hover span{
     
 }
 
-
 ul li {
     list-style: none;
     margin: 0 20px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 ul li a {
