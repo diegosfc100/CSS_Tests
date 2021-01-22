@@ -1,10 +1,16 @@
 ##  002.Text Sliding Effect
 
-O que aprendi com esse projeto:
+
+
+[](https://github.com/diegosfc100/CSS_Tests/blob/master/002.text-sliding-effect/002.gif)
+
+##### O que eu aprendi com esse projeto:
 
 -
 -
 -
+-
+-
 
 
-![](002.gif)
+!
