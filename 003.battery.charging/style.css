@@ -1,0 +1,18 @@
+html, body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, teal, aqua);
+}
+
+.battery {
+    width: 6em;
+    height: 3em;
+    color: midnightblue;
+    border: 0.5em solid currentColor;
+    border-radius: 0.2em;
+    font-size: 2em;
+    position: relative;
+}
+
