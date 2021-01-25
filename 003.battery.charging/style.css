@@ -14,5 +14,20 @@ html, body {
     border-radius: 0.2em;
     font-size: 2em;
     position: relative;
+    background-image: linear-gradient(to right, whitesmoke, whitesmoke);
+    background-repeat: no-repeat;
+    background-size: 30% 80%;
+    background-position: top 0.3em left 0.3em;
+}
+
+.battery::after {
+    position: absolute;
+    content: '';
+    width: 0.5em;
+    height: 2em;
+    background-color: currentColor;
+    top: 0.5em;
+    right: -1em;
+    border-radius: 0 0.2em 0.2em 0;
 }
 
