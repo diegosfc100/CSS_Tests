@@ -18,6 +18,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: 30% 80%;
     background-position: top 0.3em left 0.3em;
+    animation: charge 5s steps(8) infinite;
 }
 
 .battery::after {
@@ -31,3 +32,12 @@ html, body {
     border-radius: 0 0.2em 0.2em 0;
 }
 
+@keyframes charge {
+    from {
+        background-size: 10% 80%;
+    }
+    
+    to {
+        background-size: 95% 80%;
+    }
+}
