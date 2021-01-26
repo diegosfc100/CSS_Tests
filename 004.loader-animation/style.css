@@ -13,4 +13,31 @@ body {
     border: 1px dashed white;
     font-size: 25px;
     border-radius: 50%;
+    border-top: 0.3em solid hotpink;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.loader::before {
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-top: 0.3em solid dodgerblue;
+    border-radius: 50%;
+    box-sizing: border-box;
+    transform: rotate(120deg);
+    top: -0.2em;
+}
+
+
+
+.loader span {
+    color: white;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    text-align: center;
+    line-height: 10em;
+    font-family: sans-serif;
 }
