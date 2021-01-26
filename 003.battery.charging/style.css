@@ -3,22 +3,23 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, teal, aqua);
+    background: linear-gradient(to bottom, #0a043c, #03506f);
 }
 
 .battery {
     width: 6em;
     height: 3em;
-    color: midnightblue;
+    color: #fffaa4;
     border: 0.5em solid currentColor;
     border-radius: 0.2em;
     font-size: 2em;
     position: relative;
-    background-image: linear-gradient(to right, whitesmoke, whitesmoke);
+    background-image: linear-gradient(to right,#00ff00, #00ff00);
     background-repeat: no-repeat;
     background-size: 30% 80%;
     background-position: top 0.3em left 0.3em;
-    animation: charge 5s steps(8) infinite;
+    animation: charge 5s steps(9) infinite;
+    
 }
 
 .battery::after {
