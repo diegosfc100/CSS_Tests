@@ -3,7 +3,7 @@
 ![](https://github.com/diegosfc100/CSS_Tests/blob/master/001.buttons-hover-effects/gif.gif)
 <hr>
 
-#### O que eu conheci/aprendi/botei em prática com esse projeto:
+#### O que eu conheci/aprendi com esse projeto:
 
 - *<a href="https://www.w3schools.com/css/css3_transitions.asp">transitions;</a>*
 - *<a href="https://www.w3schools.com/cssref/pr_pos_overflow.asp">overflow;</a>*
@@ -19,7 +19,7 @@
 ![](https://github.com/diegosfc100/CSS_Tests/blob/master/002.text-sliding-effect/002.gif)
 <hr>
 
-#### O que eu conheci/aprendi/botei em prática com esse projeto:
+#### O que eu conheci/aprendi com esse projeto:
 
 
 - *<a href="https://www.w3schools.com/cssref/css3_pr_filter.asp">filter;</a>*
@@ -39,11 +39,23 @@
 ![](https://github.com/diegosfc100/CSS_Tests/blob/master/003.battery.charging/bateria.gif)
 <hr>
 
-#### O que eu conheci/aprendi/botei em prática com esse projeto:
+#### O que eu conheci/aprendi com esse projeto:
 
 - *<a href="https://www.w3schools.com/css/css3_gradients.asp">background: linear-gradient;</a>*
 - *<a href="https://www.w3schools.com/cssref/pr_background-position.asp">background-position;</a>*
 - *<a href="https://www.w3schools.com/colors/colors_currentcolor.asp">background-color: currentColor;</a>*
+<hr>
 
 
-!
+## 004. Loader Animation
+
+![](https://github.com/diegosfc100/CSS_Tests/blob/master/004.loader-animation/load.gif)
+<hr>
+
+- *<a href="https://www.w3schools.com/cssref/css3_pr_box-sizing.asp">box-sizing: border-box;</a>*
+- *<a href="https://www.w3schools.com/cssref/pr_dim_width.asp">width: inherit;</a>*
+- *<a href="https://www.w3schools.com/cssref/css3_pr_transform.asp">transform: rotate;</a>*
+
+
+
+
