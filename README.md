@@ -3,7 +3,7 @@
 ![](https://github.com/diegosfc100/CSS_Tests/blob/master/001.buttons-hover-effects/gif.gif)
 <hr>
 
-#### O que eu conheci/ aprendi/ botei em prática com esse projeto:
+#### O que eu conheci/aprendi/botei em prática com esse projeto:
 
 - *<a href="https://www.w3schools.com/css/css3_transitions.asp">transitions;</a>*
 - *<a href="https://www.w3schools.com/cssref/pr_pos_overflow.asp">overflow;</a>*
@@ -19,7 +19,7 @@
 ![](https://github.com/diegosfc100/CSS_Tests/blob/master/002.text-sliding-effect/002.gif)
 <hr>
 
-#### O que eu conheci/ aprendi/ botei em prática com esse projeto:
+#### O que eu conheci/aprendi/botei em prática com esse projeto:
 
 
 - *<a href="https://www.w3schools.com/cssref/css3_pr_filter.asp">filter;</a>*
@@ -34,7 +34,16 @@
 <hr>
 
 
+## 003.Battery Charging
 
+![](https://github.com/diegosfc100/CSS_Tests/blob/master/003.battery.charging/bateria.gif)
+<hr>
+
+#### O que eu conheci/aprendi/botei em prática com esse projeto:
+
+- *<a href="https://www.w3schools.com/css/css3_gradients.asp">background: linear-gradient;</a>*
+- *<a href="https://www.w3schools.com/cssref/pr_background-position.asp">background-position;</a>*
+- *<a href="https://www.w3schools.com/colors/colors_currentcolor.asp">background-color: currentColor;</a>*
 
 
 !
