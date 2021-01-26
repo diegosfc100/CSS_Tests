@@ -10,27 +10,35 @@ body {
 .loader {
     width: 10em;
     height: 10em;
-    border: 1px dashed white;
-    font-size: 25px;
+    font-size: 30px;
     border-radius: 50%;
     border-top: 0.3em solid hotpink;
     position: relative;
     box-sizing: border-box;
+    animation: rotating 2s ease-in-out infinite;
+    --direction: 1;
 }
 
-.loader::before {
+.loader::before,
+.loader::after {
     content: '';
     position: absolute;
     width: inherit;
     height: inherit;
-    border-top: 0.3em solid dodgerblue;
     border-radius: 50%;
     box-sizing: border-box;
-    transform: rotate(120deg);
     top: -0.2em;
 }
 
+.loader::before {
+    border-top: 0.3em solid dodgerblue;
+    transform: rotate(120deg);
+}
 
+.loader::after {
+    border-top: 0.3em solid gold;
+    transform: rotate(240deg);
+}
 
 .loader span {
     color: white;
@@ -40,4 +48,6 @@ body {
     text-align: center;
     line-height: 10em;
     font-family: sans-serif;
+    animation: rotating 2s linear infinite;
+    --direction: -1;
 }
