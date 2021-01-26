@@ -4,7 +4,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #252525;
 }
 
 .loader {
@@ -12,7 +12,7 @@ body {
     height: 10em;
     font-size: 30px;
     border-radius: 50%;
-    border-top: 0.3em solid hotpink;
+    border-top: 0.3em solid green;
     position: relative;
     box-sizing: border-box;
     animation: rotating 2s ease-in-out infinite;
@@ -31,7 +31,7 @@ body {
 }
 
 .loader::before {
-    border-top: 0.3em solid dodgerblue;
+    border-top: 0.3em solid darkred;
     transform: rotate(120deg);
 }
 
