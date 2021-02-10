@@ -59,3 +59,77 @@ p {
 	margin: -10px;
     font-size:12px
 }
+
+/******************
+	  LEFT SECTION 
+*******************/
+#left {
+	flex: 1.5;
+	text-align: center;
+	margin: auto;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+}
+
+#clickButtons {
+	padding-top: 60px;
+}
+
+button {
+	background: #fff;
+	padding: 5px 15px;
+	border-radius: 20px;
+	border: 1px solid #112638;
+	width: 125px;
+	font-size: 14px;
+	font-weight: bolder;
+	margin: 5px 0;
+	transition: ease-in-out 0.25s;
+}
+
+button:hover {
+	color: white;
+	background-color: #112638;
+}
+
+#profile {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+#profilePic {
+	border-radius: 50%;
+}
+
+.circle {
+	border: 1px solid #112638;
+	border-radius: 50%;
+	transition: ease-in-out 1s;
+}
+
+.one {
+	height: 160px;
+	width: 160px;
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	border-right-color: transparent;
+}
+
+.two {
+	height: 175px;
+	width: 175px;
+	position: absolute;
+	top: 13px;
+	left: 50px;
+	border-left-color: transparent;
+}
+
+#profile:hover .one{
+      transform: rotate(360deg);
+}
+
+#profile:hover .two {
+      transform: rotate(-360deg);
+}
+ 
