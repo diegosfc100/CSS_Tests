@@ -133,3 +133,27 @@ button:hover {
       transform: rotate(-360deg);
 }
  
+
+/******************
+	  RIGHT SECTION
+*******************/
+#right {
+	flex: 1;
+	display: grid;
+	grid-template-rows: repeat(3, auto);
+	grid-gap: 10px;
+}
+
+
+
+.content {
+	background-color: #00ad7c;
+	text-align:center;
+	cursor: pointer;
+	transition: ease-in-out 0.3s;
+	
+}
+
+.highlight:hover {
+	background: #52d681;
+}
