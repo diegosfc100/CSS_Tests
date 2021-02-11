@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 10px;
+    font-family: sans-serif;
+    line-height: 1.6;
+  }
+  
+  body {
+    background: #b2ebf2;
+    color: #111d5e;
+    font-size: 1.5rem;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .card {
+    background: #ffffff;
+    width: 90%;
+    max-width: 40rem;
+    min-height: 40rem;
+    margin: 5rem auto;
+    display: grid;
+    grid-template-rows: 8rem auto 10rem;
+    box-shadow: 0 1rem 2.5rem #1b405e;
+  }
