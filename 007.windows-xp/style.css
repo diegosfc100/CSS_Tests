@@ -14,6 +14,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    font-size: 10px;
 }
 
 .logo p {
@@ -64,4 +65,44 @@ body {
     width: 15em;
     height: 1em;
     border: 0.2em solid silver;
+    border-radius: 0.7em;
+    position: relative;
+    padding: 0.2em;
+    overflow: hidden;
+}
+
+.bar::before {
+    content: '';
+    position: absolute;
+    width: 3em;
+    height: 70%;
+    background-color: dodgerblue;
+    background: 
+        linear-gradient(
+            to right,
+            transparent 30%,
+            black 30%, black 35%,
+            transparent 35%, transparent 65%,
+            black 65%, black 70%,
+            transparent 70%
+        ),
+        linear-gradient(
+            blue 0%,
+            royalblue 17%,
+            deepskyblue 32%, deepskyblue 45%,
+            royalblue 60%,
+            blue 100%
+        );
+    border-radius: 0.2em;
+    animation: run 2s linear infinite;
+}
+
+@keyframes run {
+    from {
+        transform: translateX(-3em);
+    }
+    
+    to {
+        transform: translateX(15em);
+    }
 }
