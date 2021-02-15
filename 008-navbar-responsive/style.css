@@ -132,6 +132,42 @@ header a:hover > i {
         width:24rem;
 
         padding-top: var(--nav-height);
+       
         background: var(--gradient);
+
+        clip-path: circle(
+            calc(var(--nav-height) / 3)
+            at
+            calc(100% - var(--nav-height) / 2)
+            calc(0% + var(--nav-height) / 2)
+        );
     }
+
+    header ul {
+        grid-auto-flow: row;
+        grid-template-columns: 1fr;
+        grid-template-rows: none;
+        grid-auto-rows: max-content;
+        gap: 0.5rem;
+
+        padding:0;
+    }
+
+    header a {
+        padding: 0.5rem 1.5rem;
+    }
+
+    header a > i {
+        color: var(--bg-color);
+    }
+
+    header a:hover {
+        background-color: var(--bg-color);
+    }
+
+    header a:hover > i {
+        color: var(--highlight-primary);
+    }
+
+
 }
