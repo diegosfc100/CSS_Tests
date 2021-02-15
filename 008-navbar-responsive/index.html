@@ -8,24 +8,30 @@
     integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
     crossorigin="anonymous" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    
     <link rel="stylesheet" href="style.css">
     <title>Navbar</title>
 </head>
 <body>
-    <header>    
+    <header>
         <div class="logo">
             <i class="fas fa-feather-alt"></i>
         </div>
+        <input type="checkbox" class="toggle" id="nav-toggle">
+        <label for="nav-toggle" id="nav-toggle-label">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </label>
         <nav>
             <ul>
-                <li>
-                    <a href="#"><i class="far fa-chart-bar"></i>Dashboard</a>
-                    <a href="#"><i class="far fa-edit"></i>Projects</a>
-                    <a href="#"><i class="far fa-envelope-open"></i>Posts</a>                 
-                </li>
+                <li><a href="#"><i class="far fa-chart-bar"></i>Dashboard</a></li>
+                <li><a href="#"><i class="far fa-edit"></i>Projects</a></li>
+                <li><a href="#"><i class="far fa-envelope-open"></i>Posts</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        Make viewport smaller and see what happens to the navbar.
+    </main>
 </body>
 </html>
