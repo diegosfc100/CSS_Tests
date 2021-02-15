@@ -2,7 +2,10 @@
     --fg-color: rgba(255,255,255, 0.9);
     --bg-color: #2b2b2b;
     --highlight-primary:#008aff;
-    
+    --gradient: 
+    linear-gradient(300deg, #ba4aff, rgba(186, 74, 255, 0) 70%),
+    linear-gradient(277deg, #008aff, rgba(0, 138, 255, 0) 70%),
+    linear-gradient(104deg, #00ffc6, rgba(0, 255, 198, 0) 74%);
     --nav-height: 3em;
 
     --transition: 250ms ease-out;
@@ -96,3 +99,39 @@ header a:hover > i {
     color: var(--bg-color);
 }
 
+.logo {
+    display: grid;
+    place-content: center;
+    padding: 0rem 1rem;
+}
+
+.logo > i {
+    padding: 0.25rem;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+    background: var(--highlight-primary);
+    color:var(--bg-color);
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle-label {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    header nav {
+        position: fixed;
+        top:0;
+        bottom:0;
+        right:0;
+        width:24rem;
+
+        padding-top: var(--nav-height);
+        background: var(--gradient);
+    }
+}
